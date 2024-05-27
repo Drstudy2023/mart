@@ -1,5 +1,5 @@
 {
-  "homepage":"https//Drstudy2023.github.io/mart",
+  "homepage": "https//Drstudy2023.github.io/mart",
   "name": "mart",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +12,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
-    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.3.1",
@@ -24,10 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy":"npm run build",
-    "deploy":"ph-page -d build"
+    "predeploy": "npm run build",
+    "deploy": "ph-page -d build"
   },
-
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -45,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
