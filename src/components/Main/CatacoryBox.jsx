@@ -22,12 +22,12 @@ function CategoryBox() {
   };
 
   const categories = [
-    { icon: <MeetingRoomOutlinedIcon style={{ fontSize: 105, color: 'white', marginLeft: '140px' }} /> },
-    { icon: <ChairOutlinedIcon style={{ fontSize: 105, color: 'white', marginLeft: '140px' }} /> },
-    { icon: <SensorWindowOutlinedIcon style={{ fontSize: 105, color: 'white', marginLeft: '140px' }} /> },
-    { icon: <BedOutlinedIcon style={{ fontSize: 105, color: 'white', marginLeft: '140px' }} /> },
-    { icon: <StoreMallDirectoryOutlinedIcon style={{ fontSize: 105, color: 'white', marginLeft: '140px' }} /> },
-    { icon: <BiotechOutlinedIcon style={{ fontSize: 105, color: 'white', marginLeft: '140px' }} /> }
+    { icon: <MeetingRoomOutlinedIcon style={{ fontSize: 105, color: 'white' }} />, text: 'Door' },
+    { icon: <ChairOutlinedIcon style={{ fontSize: 105, color: 'white' }} />, text: 'Chair' },
+    { icon: <SensorWindowOutlinedIcon style={{ fontSize: 105, color: 'white' }} />, text: 'Window' },
+    { icon: <BedOutlinedIcon style={{ fontSize: 105, color: 'white' }} />, text: 'Bed' },
+    { icon: <StoreMallDirectoryOutlinedIcon style={{ fontSize: 105, color: 'white' }} />, text: 'Mall' },
+    { icon: <BiotechOutlinedIcon style={{ fontSize: 105, color: 'white' }} />, text: 'Other' }
   ];
 
   return (
@@ -38,14 +38,17 @@ function CategoryBox() {
             <div
               style={{
                 backgroundColor: hoveredIndex === index ? hoverBackgroundColor : originalBackgroundColor,
-                height: '100px',
+                height: '150px', 
                 marginTop: '20px',
-                cursor: 'pointer'
+                cursor: 'pointer',
+                textAlign: 'center', 
+                padding: '10px' 
               }}
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
             >
               {category.icon}
+              <div style={{ color: 'white', marginBottom:'30px', fontSize: '20px',fontFamily:"serif"}}>{category.text}</div> {/* Add text below icon */}
             </div>
           </Col>
         ))}

@@ -43,7 +43,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.LastFooter}>
-                <p>power by Assailent</p>
+                <p style={{color:"white"}}>power by Assailent</p>
             </div>
         </footer>
     );

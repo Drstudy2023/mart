@@ -42,8 +42,13 @@ function OffcanvasExample() {
               <Offcanvas.Body>
 
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link title="Dashboard" href="#action1" style={getLinkStyle('Dashboard')} onMouseEnter={() => handleMouseEnter('Dashboard')} onMouseLeave={handleMouseLeave}>Dashboard</Nav.Link>
-                  <NavDropdown title={<span style={{ color: "white" }}><AccountBoxOutlinedIcon/><ExpandMoreOutlinedIcon/></span>} id={`offcanvasNavbarDropdown-expand-${expand}`} menuVariant="dark">
+
+                  <Nav.Link title="Dashboard" href="#action1" style={getLinkStyle('Dashboard')} onMouseEnter={() => handleMouseEnter('Dashboard')} onMouseLeave={handleMouseLeave}>Home</Nav.Link>
+                  <Nav.Link title="Cart" href="#action1" style={getLinkStyle('Cart')} onMouseEnter={() => handleMouseEnter('Cart')} onMouseLeave={handleMouseLeave}>Cart</Nav.Link>
+                  <Nav.Link title="About" href="#action1" style={getLinkStyle('About')} onMouseEnter={() => handleMouseEnter('About')} onMouseLeave={handleMouseLeave}>About</Nav.Link>
+                  <Nav.Link title="Help" href="#action1" style={getLinkStyle('Help')} onMouseEnter={() => handleMouseEnter('Help')} onMouseLeave={handleMouseLeave}>Help</Nav.Link>
+
+                  <NavDropdown title={<span style={{ color: "white" }}><AccountBoxOutlinedIcon/></span>} id={`offcanvasNavbarDropdown-expand-${expand}`} menuVariant="dark">
 
                     <NavDropdown.Item href="#action3"><PermIdentityOutlinedIcon />Profile</NavDropdown.Item>
                     <NavDropdown.Item href="#action4"><ShoppingCartOutlinedIcon />Cart</NavDropdown.Item>
