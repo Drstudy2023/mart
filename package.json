@@ -1,5 +1,5 @@
 {
-  "homepage": "https//Drstudy2023.github.io/mart",
+  "homepage": "https//drstudy2023.github.io/mart",
   "name": "mart",
   "version": "0.1.0",
   "private": true,
@@ -25,7 +25,6 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test"
-
   },
   "eslintConfig": {
     "extends": [
