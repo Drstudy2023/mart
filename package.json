@@ -24,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "ph-page -d build"
+    "deploy": "gh-page -d build"
   },
   "eslintConfig": {
     "extends": [
