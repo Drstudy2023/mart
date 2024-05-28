@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https//Drstudy2023.github.io/mart/static/css/main.1e19d27c.css",
-    "main.js": "/https//Drstudy2023.github.io/mart/static/js/main.b0e608d9.js",
-    "static/js/453.ef74ac98.chunk.js": "/https//Drstudy2023.github.io/mart/static/js/453.ef74ac98.chunk.js",
-    "index.html": "/https//Drstudy2023.github.io/mart/index.html",
-    "main.1e19d27c.css.map": "/https//Drstudy2023.github.io/mart/static/css/main.1e19d27c.css.map",
-    "main.b0e608d9.js.map": "/https//Drstudy2023.github.io/mart/static/js/main.b0e608d9.js.map",
-    "453.ef74ac98.chunk.js.map": "/https//Drstudy2023.github.io/mart/static/js/453.ef74ac98.chunk.js.map"
+    "main.css": "./static/css/main.1e19d27c.css",
+    "main.js": "./static/js/main.de1e9146.js",
+    "static/js/453.ef74ac98.chunk.js": "./static/js/453.ef74ac98.chunk.js",
+    "index.html": "./index.html",
+    "main.1e19d27c.css.map": "./static/css/main.1e19d27c.css.map",
+    "main.de1e9146.js.map": "./static/js/main.de1e9146.js.map",
+    "453.ef74ac98.chunk.js.map": "./static/js/453.ef74ac98.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e19d27c.css",
-    "static/js/main.b0e608d9.js"
+    "static/js/main.de1e9146.js"
   ]
 }
